@@ -1,5 +1,28 @@
 #main-content {
-    font-size: 36px;
-    font-weight: bold;
-    padding: 16px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.my-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.my-button:hover {
+  background-color: #45a049;
+}

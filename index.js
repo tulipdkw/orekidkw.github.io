@@ -1,3 +1,3 @@
-window.onload = function() {
-    document.getElementById('main-content').innerHTML = 'Hello, github pages :)'
-  }
+function redirectToPage(page) {
+  window.location.href = page;
+}
