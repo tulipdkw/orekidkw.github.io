@@ -1,3 +1,5 @@
+/* main.css */
+
 #main-content {
   display: flex;
   flex-direction: column;
@@ -8,34 +10,63 @@
 }
 
 h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #97c6ff
+  font-weight: bold;
+  font-size: 60px;
+  font-family: 'Simhei', 'Times New Roman', Times, serif;
+  text-shadow: -0px -0px 0 #FFFFFF, 0.5px -0.5px 0 #ffffff, -0.5px 0.5px 0 #ffffff, 0.5px 0.5px 0 #ffffff;
+  margin-top: 0px;
+  color: #331a8c;
 }
 
 h2 {
-  font-size: 24px;
-  color: rgb(253, 207, 255)
+  text-shadow: -0.2px -0.2px 0 #ffbaf7, 0.2px -0.2px 0 #ffbaf7, -0.2px 0.2px 0 #ffbaf7, 0.2px 0.2px 0 #ffbaf7;
+  font-size: 32px;
+  font-family:'Simsun', 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
 }
 
 .my-button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #306d32;
+  background-color: #821f6e;
   color: white;
   border: none;
   cursor: pointer;
   border-radius: 4px;
-  margin: 5px;
+  margin-top: 20px;
 }
 
 .my-button:hover {
-  background-color: #53a656;
+  background-color: #ab3593;
 }
+
 body {
-  background: linear-gradient(45deg, #4e0016, #002b6c);
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif; /* 添加字体样式，可选 */
-  color: #fff; /* 设置文本颜色为白色，以便更好地适应背景 */
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-image: url('bg/garden.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.new-button {
+  margin-top: -142px;
+  margin-right: 500px; /* 控制按钮3与按钮1之间的间隔 */
+  background-color: #821f6e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* 按钮1和按钮2垂直排列 */
+  align-items: center;
+  gap: 20px; /* 控制按钮之间的间隔 */
+}
+
